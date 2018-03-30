@@ -20,7 +20,10 @@ perform for the following validations:
 
 ## Building
 To build the project, invoke either `msbuild` or `xbuild` depending on your
-platform. This tool is compatible with Mono or .NET.
+platform. This tool is compatible with Mono or .NET. 
+
+Note: After cloning and prior to the first build, make sure to run the two commands 
+`git submodule init` and `git submodule update` to fetch all the data from the markdowndeep submodule.
 
 ## Command Line Tool
 
