@@ -205,7 +205,7 @@ namespace ApiDocs.Publishing.CSDL
             bool generateNewElements = (generateFromDocs == null && !options.SkipMetadataGeneration) || (generateFromDocs.HasValue && generateFromDocs.Value) ;
 
             // Add resources
-            if (generateNewElements && Documents.Files.Any())
+            if (Documents.Files.Any())
             {
                 foreach (var resource in Documents.Resources)
                 {
